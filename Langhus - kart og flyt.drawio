@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T12:14:56.159Z" agent="5.0 (Macintosh)" etag="ZrFruenso-ENE5_Az4bf" version="17.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-11T12:19:17.955Z" agent="5.0 (Macintosh)" etag="Z8aRUQK6Jo85HJqIKrfy" version="17.1.1" type="github" pages="2">
   <diagram name="Kart over teltet" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="2066" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -146,6 +146,66 @@
         <mxCell id="mhh4Un1ai-kPOHShKbEI-1" parent="mhh4Un1ai-kPOHShKbEI-0" />
         <mxCell id="mhh4Un1ai-kPOHShKbEI-2" value="&lt;div align=&quot;left&quot;&gt;* Receiveing of material&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;* Coarse sorting of material&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;* Fine sorting of clothes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;* Fine sorting of nonclothes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;* Labelling and finishing box&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;* Finishing pallet&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
           <mxGeometry x="40" y="125" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-4" target="d27aGDFFhklH2CD-lEhn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;strokeWidth=1;fillColor=#EBFFBD;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="80" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-5" target="d27aGDFFhklH2CD-lEhn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-5" value="Is it bag clothes or non-clothes?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="160" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-7" target="d27aGDFFhklH2CD-lEhn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="d27aGDFFhklH2CD-lEhn-11">
+          <mxGeometry x="-0.0364" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-7" target="d27aGDFFhklH2CD-lEhn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="d27aGDFFhklH2CD-lEhn-12">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-7" target="d27aGDFFhklH2CD-lEhn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-20" value="Both" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="d27aGDFFhklH2CD-lEhn-19">
+          <mxGeometry x="-0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-7" value="Clothes?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="320" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-9" target="d27aGDFFhklH2CD-lEhn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-9" value="Put to unsorted area" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="440" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-10" target="d27aGDFFhklH2CD-lEhn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-10" value="Put to fine soring non clothes area" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="440" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;strokeWidth=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="630" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="mhh4Un1ai-kPOHShKbEI-1" source="d27aGDFFhklH2CD-lEhn-18" target="d27aGDFFhklH2CD-lEhn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d27aGDFFhklH2CD-lEhn-18" value="Split in clothes and non-clothes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;" vertex="1" parent="mhh4Un1ai-kPOHShKbEI-1">
+          <mxGeometry x="300" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
